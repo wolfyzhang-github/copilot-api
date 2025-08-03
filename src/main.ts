@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
+// Initialize enhanced logging before any other imports
+import "./lib/logger"
+
 import { defineCommand, runMain } from "citty"
 
 import { auth } from "./auth"
